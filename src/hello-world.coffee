@@ -11,5 +11,5 @@
 #   bouzuya <m@bouzuya.net>
 
 module.exports = (robot) ->
-  robot.respond /hello/i, (msg) ->
-    msg.send 'World!'
+  robot.respond /君に決めた！/i, (msg) ->
+    msg.send 'クルックー'

@@ -10,9 +10,7 @@
 # Author:
 #   bouzuya <m@bouzuya.net>
 
-module.exports = (robot) ->
-  robot.respond /君に決めた！/i, (msg) ->
-    msg.send 'クルックー。'
+
 
 
 module.exorts = (robot) ->
